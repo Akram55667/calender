@@ -1,0 +1,53 @@
+.container{
+    max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 30px;
+     background-color: white;
+}
+.country-name{
+    text-align: center;
+   
+}
+.month{
+    border: 5px solid rgb(26, 75, 172);
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+.month-name{
+    color:  #de09ed;
+    text-align: center;
+    
+}
+.display-system{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.calander-list{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1em;
+    
+    gap: 10px;
+}
+
+.list ,.day{
+    background-color:  #c3c0c1;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: auto;
+     
+     
+}
+.date{
+    background-color:  #716ec4;
+    height: 50px;
+}
+.ofday{
+  color:  #f7073f;
+}
