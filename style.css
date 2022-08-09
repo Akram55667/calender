@@ -1,7 +1,7 @@
 .container{
     max-width: 1200px;
      margin: 0 auto;
-     padding: 0 30px;
+     padding: 0 auto;
      background-color: white;
 }
 .country-name{
@@ -10,13 +10,15 @@
 }
 .month{
     border: 5px solid rgb(26, 75, 172);
-    background-color: aqua;
+    /* background-color:  #d4faf4; */
     padding: 10px;
     border-radius: 10px;
 }
 .month-name{
-    color:  #de09ed;
+    border: 3px solid green;
+    color:  rgb(20, 190, 63);
     text-align: center;
+    
     
 }
 .display-system{
@@ -31,10 +33,12 @@
     grid-gap: 1em;
     
     gap: 10px;
+    margin-top: 20px;
 }
 
 .list ,.day{
-    background-color:  #c3c0c1;
+    border: 1px solid rebeccapurple;
+    /* background-color:  #c3c0c1; */
     font-size: 3em;
     display: flex;
     justify-content: center;
@@ -45,9 +49,22 @@
      
 }
 .date{
-    background-color:  #716ec4;
+    /* background-color:  #5b5a7a; */
     height: 50px;
 }
 .ofday{
   color:  #f7073f;
 }
+.fotter{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+
+.fotter p{
+    padding: 10px;
+}
+
+ 
